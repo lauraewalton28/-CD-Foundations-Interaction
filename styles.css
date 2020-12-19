@@ -1,0 +1,49 @@
+html, body {
+	top: 0;
+	left: 0;
+	font-family: 'Satisfy', sans-serif;
+
+	height: 1300px;
+	background:  linear-gradient(to bottom right, #F2EDC0, #53B4C9);
+}
+h1 {
+	position: right;
+	color: #F4B712;
+	width: 25em;
+}
+
+.line1 {
+	text-align: middle;
+	width: 25em;
+	color: black;
+	font size: 10pt;
+	letter-spacing: 0.2em;	
+}
+
+.line2 {
+	text-align: right;
+	color: white;
+	margin: 0 auto;
+	font-size: 12pt;
+	white-space: nowrap;
+
+} 
+
+.typing > *{
+	overflow:hidden;
+	white-space: nowrap;
+	animation: typingAnim 5s steps(50);
+}
+
+@keyframes typingAnim{
+	from { width: 0;}
+	to { width: 100% }
+}
+
+.line3 {
+	text-align: left;
+	width: 22%;
+	color: #F4B712;
+	font-size: 30px;
+	letter-spacing: 0.2em;
+}
