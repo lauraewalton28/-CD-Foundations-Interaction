@@ -1,49 +1,77 @@
-html, body {
-	top: 0;
-	left: 0;
-	font-family: 'Satisfy', sans-serif;
+html, body{
+		background-color:#9B5C3A;
+		top:0;
+		left:0;
+		margin:0;
+		width: 100%;
+		display:flex;
+		text-align:center;
+		font-family: 'Reenie Beanie', sans-serif;
+	}
 
-	height: 1300px;
-	background:  linear-gradient(to bottom right, #F2EDC0, #53B4C9);
+
+.fashiontype {
+	color: #E9E2DE;
+	position: fixed;
+	width: 550px;
+	height: 124px;
+	left: 400px;
+	top: -35px;
+	font-family: 'Reenie Beanie', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 150px;
 }
+
 h1 {
-	position: right;
-	color: #F4B712;
-	width: 25em;
+	color: #754C29;
+	left: 50px;
+	font-size: 40px;
+	line-height: 122px;
+	font-family: 'Pacifico', sans-serif;
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease; 
 }
 
-.line1 {
-	text-align: middle;
-	width: 25em;
-	color: black;
-	font size: 10pt;
-	letter-spacing: 0.2em;	
+	h1:hover {
+		letter-spacing: 0.4em;
+	}
+
+.bucket {
+	position: absolute;
+	left: 400px;
+	top: 300px;
+
 }
 
-.line2 {
-	text-align: right;
-	color: white;
-	margin: 0 auto;
-	font-size: 12pt;
-	white-space: nowrap;
+.scarf {
+	position: absolute;
+	left: 400px;
+	top: 1000px;
 
-} 
-
-.typing > *{
-	overflow:hidden;
-	white-space: nowrap;
-	animation: typingAnim 5s steps(50);
 }
 
-@keyframes typingAnim{
-	from { width: 0;}
-	to { width: 100% }
+.jordans {
+	position: absolute;
+	left: 240px;
+	top: 1500px;
+
 }
 
-.line3 {
-	text-align: left;
-	width: 22%;
-	color: #F4B712;
-	font-size: 30px;
-	letter-spacing: 0.2em;
+.telfar {
+	position: absolute;
+	left: 650px;
+	top: 2000px;
+	transition:0.10s cubic-bezier(0,1.22,.81,1.25);
+	cursor:pointer;
+	overflow: hidden;
+
 }
+
+.telfar: hover {
+	width: 366px;
+	height: 415px;
+}
+
